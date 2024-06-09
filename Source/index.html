@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<!-- Authors: Juan Malaver, Fisayo Ojo, 2024 -->
+
+<head>
+    <title>Sphere Solar System</title>
+    <link rel="icon" href="COMP3801_RGB_cube.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../Common/webgl-utils.js"></script>
+    <script type="text/javascript" src="../Common/initShaders.js"></script>
+    <script type="text/javascript" src="../Common/MV.js"></script>
+    <script type="text/javascript" src="solar.js" defer></script>
+    <script type="text/javascript" src="planet.js"></script>
+    <script type="text/javascript" src="ship.js"></script>
+    <script type="text/javascript" src="ring.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="separator"></div> -->
+        <h1 class="title">Sphere Solar System</h1>
+        <div class="canvas-container">
+            <canvas id="gl-canvas" width="1280" height="800" tabindex="">
+                Oops ... your browser doesn't support the HTML5 canvas element
+            </canvas>
+        </div>
+
+        <div class="button-container">
+            <button id="play-pause-button" class="buttons">Play</button>
+            <button id="switch-views-button" class="buttons">Switch Viewport</button>
+            <button id="toggleOrbitPaths" class="buttons">Orbit Path On/Off</button>
+        </div>
+</body>
+
+</html>

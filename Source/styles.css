@@ -1,0 +1,75 @@
+/* styles.css */
+/* Sphere Solar System */
+/* Authors: Juan Malaver, Fisayo Ojo, 2024 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f1d37; /* Dark blue background */
+  color: #ffffff; /* White text color */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+canvas {
+  border: 2px solid #ffffff; /* White border for the canvas */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* White shadow for a 3D effect */
+  z-index: 2;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px 30px; /* Increased padding for a bigger button */
+  background-color: #1f3a6e; /* Dark blue button */
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px; /* Increased font size */
+  font-weight: bold; /* Bold font weight */
+  margin-top: 8px;
+  width: 12rem;
+}
+
+button:hover {
+  background-color: #2d549c; /* Lighter blue on hover */
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+.separator {
+  width: 100%;
+  height: 2px; /* Adjust the height as needed */
+  background-color: white; /* Color of the separator line */
+  position: absolute; /* Position the separator absolutely */
+  top: 50%; /* Align the separator vertically in the middle */
+  transform: translateY(-50%); /* Adjust vertical positioning */
+  z-index: 1; /* Set z-index to a value lower than the background */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* margin-top: 20px; */
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
